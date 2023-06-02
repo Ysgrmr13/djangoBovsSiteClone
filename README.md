@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```
 class UserPostListView(ListView):
     model = Post
@@ -21,3 +22,6 @@ DJANGO_SETTINGS_MODULE = djangoBovsSite.settings
 python_files = tests.py test_*.py *_tests.py
 >>>>>>> 37119c3742eb0062d2464d7928a45b7d226a32e3
 ```
+=======
+# djangoBovsSiteClone
+>>>>>>> bd09eef24c2b4ac634de45504ee550df69a905b6

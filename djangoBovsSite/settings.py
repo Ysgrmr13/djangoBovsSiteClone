@@ -61,7 +61,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.github',
     'crispy_forms',
     'crispy_bootstrap4',
-    
+
     # My applications
     'blog',
     'discussions',
@@ -87,7 +87,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-     "debug_toolbar.middleware.DebugToolbarMiddleware", # django-debug-toolbar
+    'debug_toolbar.middleware.DebugToolbarMiddleware',  # django-debug-toolbar
 ]
 
 ROOT_URLCONF = 'djangoBovsSite.urls'
@@ -214,7 +214,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ###---CKEDITOR---###
 CKEDITOR_CONFIGS = {
     'default': {
-        'width':'auto',
+        'width': 'auto',
     },
 }
 ###---CKEDITOR---###END
@@ -236,8 +236,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = os.getenv("EMAIL_PORT")
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.getenv('EMAIL_USER')     
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASS') 
+EMAIL_HOST_USER = os.getenv('EMAIL_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASS')
 
 ###---END EMAIL
 

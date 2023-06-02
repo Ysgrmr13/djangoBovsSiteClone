@@ -17,7 +17,7 @@ from django.contrib.messages import constants as messages
 # Loading ENV
 env_path = Path('.') / '.env'
 
-#env_path = '.env'
+# env_path = '.env'
 load_dotenv(dotenv_path=env_path)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
